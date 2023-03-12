@@ -6,6 +6,9 @@
 Fun Fact : Ce projet est réalisé dans le cadre de la terminale dans la spécialité La note de 14,14.5,15.5 nous ont été attribués (étant 3 personnes).
   
 La raison de cette note reste obscure. 
+
+Il nous est reproché d'avoir un fichier de 23k de lignes (une librairie)> "j'aurais pu faire le tri quand même" (ça ne serait pas en quelque sorte aussi dissimuler le travaille de quelqu'un et risque  de le faire passer pour le mien ????)
+  
   
 Le projet étant évalué je cite à un niveau BAC+3 / BAC+5 .
   
