@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js " lang="fr" data-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Manage My Home</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="../static/assets/css/al.style.min.css">
+        <link rel="stylesheet" href="../static/assets/css/layout.k.min.css">
+    </head>
+    <body class="font-quicksand">
+        <div id="layout-k" class="theme-indigo">
+            <div class="navigation navbar px-lg-3 px-2 py-lg-3 py-2">
+                <a href="/" class="brand-icon d-flex align-items-center">
+                    <span class="fw-bold fs-4 mb-0">Manage My Home</span>
+                </a>
+                <ul class="nav navbar-nav flex-row flex-grow-1 justify-content-end">
+
+
+                   <li class="nav-item"><a class="nav-link py-2 px-2 px-lg-3 d-block d-xl-none menu-toggle me-2 me-lg-0" href="#"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <div class="sidebar py-2 py-md-3">
+                <div class="d-flex flex-column h-100">
+                    <div class="user-details mb-4 px-4">
+                        <div class="d-flex align-items-start justify-content-center">
+                            <div>
+                                <img class="avatar lg rounded-circle" src="{{ img }}" alt="Avatar" title="" style="width:4rem;height: 4rem;">
+                            </div>
+                            <div class="media-body text-light ms-3">
+                                <small>Connecté avec l'ip</small>
+                                <h6 class="mb-0">{{ip}}</h6>
+                                <ul class="mb-0 list-inline mt-3"></ul><!--Bypass bug css-->
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="menu-list flex-grow-1 mt-1 px-4">
+                        <li class="divider py-2 border-top"><small>MAIN</small></li>
+                        <li><a class="m-link" href="/"><i class="fa fa-wifi"></i><span>Panel de gestion</span></a></li>
+                        <li><a class="m-link" href="/log"><i class="fa fa-server"></i> <span>Logs</span></a></li>
+                        <li><a class="m-link" href="/task"><i class="fa fa-star"></i> <span>Tâches</span></a></li>
+                        <li><a class="m-link active" href="/logtask"><i class="fa fa-history"></i> <span>Log des tâches</span></a></li>
+                        <li class="divider mt-4 py-2 border-top"><small>Compte</small></li>
+                        <li><a class="m-link" href="/login"><i class="fa fa-arrow-left"></i> <span>Se connecter</span></a></li>
+                        <li><a class="m-link" href="/logout"><i class="fa fa-puzzle-piece"></i> <span>Se deconnecter</span></a></li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="main px-lg-4 px-1">
+                <div class="body-header border-bottom d-flex py-3">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h1 class="h4 mt-1" style="color:black!important">Panel de gestion</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body d-flex py-lg-4 py-3">
+                    <div class="container-fluid">
+                        <div class="row clearfix">
+                            <div class="col col-md-12">
+
+                                <div class="card mb-4 border-0 lift">
+                                    <div class="card-header py-3 d-flex flex-wrap  justify-content-between align-items-center bg-transparent border-bottom-0">
+                                        <div>
+                                            <h6 class="card-title m-0">Dernières actions</h6>
+
+                                        </div>
+
+                                    </div>
+                                    {% for i in dtlist %}
+                                    <div class="card-body">
+                                        <div class="card-header border">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div>
+                                                    <h6 class="mb-0 fw-bold">{{i["date"]}}</h6>
+                                                    <small class="text-muted font-11">Date</small>
+                                                </div>
+                                                <div class="ms-lg-5 ms-md-4 ms-3">
+                                                    <h6 class="mb-0 fw-bold">{{i["action"]}}</h6>
+                                                    <small class="text-muted font-11">Action</small>
+                                                </div>
+                                                <div class="ms-lg-5 ms-md-4 ms-3">
+                                                    <h6 class="mb-0 fw-bold">{{i["name"]}}</h6>
+                                                    <small class="text-muted font-11">Nom de l'action</small>
+                                                </div>
+                                                <div class="ms-lg-5 ms-md-4 ms-3">
+                                                    {% if i["state"] == true %}
+                                                        <h6 class="mb-0 fw-bold" style="color:limegreen!important">Action réalisée avec succès</h6>
+                                                    {% elif i["state"] == false %}
+                                                       <h6 class="mb-0 fw-bold" style="color:orangered!important">Action en attente</h6>
+                                                    {% endif %}
+                                                    <small class="text-muted font-11">Statut de l'action</small>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div id="apex-AudienceOverview"></div>
+                                    </div>
+                                    {% endfor %}
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="body-footer d-flex">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-3 border-0">
+                                    <div class="card-body">
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col">
+                                                <p class="mb-0">©<span class="d-none d-sm-inline-block">2022 Manage my home</span></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+<script src="../static/assets/bundles/libscripts.bundle.js"></script>
+
+        <!-- Important --><script src="../static/assets/js/template.js"></script>
+
+    </body>
+</html>

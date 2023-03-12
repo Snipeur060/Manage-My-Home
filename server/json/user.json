@@ -1,0 +1,11 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "username": "test",
+        "email": "email@gmail.com",
+        "password": "$5$rounds=535000$L9ZH336.ZrNKswqc$vTYkyGRy5Rr9xK7/eCq9Rt/rlikQT3o3Mc3pkKfn.I5",
+        "picture": "https://freesvg.org/img/abstract-user-flat-4.png"
+      }
+    ]
+}

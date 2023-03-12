@@ -1,0 +1,776 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="320">
+    <style>
+        line, path, circle, rect, polygon{stroke:black;stroke-width:2;stroke-opacity:1;fill-opacity:1;stroke-linecap:round;stroke-linejoin:miter;}text{font-family:Iosevka Fixed, monospace;font-size:14px;}rect.backdrop{stroke:none;fill:white;}.broken{stroke-dasharray:8;}.filled{fill:black;}.bg_filled{fill:white;}.nofill{fill:white;}.end_marked_arrow{marker-end:url(#arrow);}.start_marked_arrow{marker-start:url(#arrow);}.end_marked_diamond{marker-end:url(#diamond);}.start_marked_diamond{marker-start:url(#diamond);}.end_marked_circle{marker-end:url(#circle);}.start_marked_circle{marker-start:url(#circle);}.end_marked_open_circle{marker-end:url(#open_circle);}.start_marked_open_circle{marker-start:url(#open_circle);}.end_marked_big_open_circle{marker-end:url(#big_open_circle);}.start_marked_big_open_circle{marker-start:url(#big_open_circle);}<!--separator-->
+    </style>
+    <defs>
+        <marker id="arrow" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><polygon points="0,0 0,4 4,2 0,0"></polygon></marker>
+        <marker id="diamond" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><polygon points="0,2 2,0 4,2 2,4 0,2"></polygon></marker>
+        <marker id="circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><circle cx="4" cy="4" r="2" class="filled"></circle></marker>
+        <marker id="open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><circle cx="4" cy="4" r="2" class="bg_filled"></circle></marker>
+        <marker id="big_open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><circle cx="4" cy="4" r="3" class="bg_filled"></circle></marker>
+    </defs>
+    <rect class="backdrop" x="0" y="0" width="512" height="320"></rect>
+    <text x="330" y="28">',</text>
+    <rect x="120" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="60" x2="124" y2="68" class="solid"></line>
+    <rect x="128" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="60" x2="132" y2="68" class="solid"></line>
+    <rect x="136" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="60" x2="140" y2="68" class="solid"></line>
+    <rect x="144" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="60" x2="148" y2="68" class="solid"></line>
+    <rect x="200" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="60" x2="204" y2="68" class="solid"></line>
+    <rect x="208" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="60" x2="212" y2="68" class="solid"></line>
+    <rect x="216" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="60" x2="220" y2="68" class="solid"></line>
+    <rect x="224" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="60" x2="228" y2="68" class="solid"></line>
+    <rect x="280" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="60" x2="284" y2="68" class="solid"></line>
+    <rect x="288" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="60" x2="292" y2="68" class="solid"></line>
+    <rect x="296" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="60" x2="300" y2="68" class="solid"></line>
+    <rect x="304" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="60" x2="308" y2="68" class="solid"></line>
+    <rect x="352" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="360" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="60" x2="364" y2="68" class="solid"></line>
+    <rect x="368" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="60" x2="372" y2="68" class="solid"></line>
+    <rect x="376" y="52" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="60" x2="380" y2="68" class="solid"></line>
+    <rect x="120" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="76" x2="124" y2="84" class="solid"></line>
+    <rect x="128" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="76" x2="132" y2="84" class="solid"></line>
+    <rect x="136" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="76" x2="140" y2="84" class="solid"></line>
+    <rect x="144" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="76" x2="148" y2="84" class="solid"></line>
+    <rect x="200" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="76" x2="204" y2="84" class="solid"></line>
+    <rect x="208" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="76" x2="212" y2="84" class="solid"></line>
+    <rect x="216" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="76" x2="220" y2="84" class="solid"></line>
+    <rect x="224" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="76" x2="228" y2="84" class="solid"></line>
+    <rect x="280" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="76" x2="284" y2="84" class="solid"></line>
+    <rect x="288" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="76" x2="292" y2="84" class="solid"></line>
+    <rect x="296" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="76" x2="300" y2="84" class="solid"></line>
+    <rect x="304" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="76" x2="308" y2="84" class="solid"></line>
+    <rect x="360" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="76" x2="364" y2="84" class="solid"></line>
+    <rect x="368" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="76" x2="372" y2="84" class="solid"></line>
+    <rect x="376" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="76" x2="380" y2="84" class="solid"></line>
+    <rect x="384" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="76" x2="388" y2="84" class="solid"></line>
+    <line x1="396" y1="64" x2="396" y2="132" class="solid"></line>
+    <text x="458" y="76">.</text>
+    <rect x="120" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="92" x2="124" y2="100" class="solid"></line>
+    <rect x="128" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="92" x2="132" y2="100" class="solid"></line>
+    <rect x="136" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="92" x2="140" y2="100" class="solid"></line>
+    <rect x="144" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="92" x2="148" y2="100" class="solid"></line>
+    <rect x="200" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="92" x2="204" y2="100" class="solid"></line>
+    <rect x="208" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="92" x2="212" y2="100" class="solid"></line>
+    <rect x="216" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="92" x2="220" y2="100" class="solid"></line>
+    <rect x="224" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="92" x2="228" y2="100" class="solid"></line>
+    <rect x="280" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="92" x2="284" y2="100" class="solid"></line>
+    <rect x="288" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="92" x2="292" y2="100" class="solid"></line>
+    <rect x="296" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="92" x2="300" y2="100" class="solid"></line>
+    <rect x="304" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="92" x2="308" y2="100" class="solid"></line>
+    <rect x="360" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="92" x2="364" y2="100" class="solid"></line>
+    <rect x="368" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="92" x2="372" y2="100" class="solid"></line>
+    <rect x="376" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="92" x2="380" y2="100" class="solid"></line>
+    <rect x="384" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="92" x2="388" y2="100" class="solid"></line>
+    <line x1="448" y1="80" x2="440" y2="96" class="solid"></line>
+    <text x="498" y="92">.</text>
+    <line x1="16" y1="112" x2="32" y2="112" class="solid"></line>
+    <rect x="120" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="108" x2="124" y2="116" class="solid"></line>
+    <rect x="128" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="108" x2="132" y2="116" class="solid"></line>
+    <rect x="136" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="108" x2="140" y2="116" class="solid"></line>
+    <rect x="144" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="108" x2="148" y2="116" class="solid"></line>
+    <rect x="200" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="108" x2="204" y2="116" class="solid"></line>
+    <rect x="208" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="108" x2="212" y2="116" class="solid"></line>
+    <rect x="216" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="108" x2="220" y2="116" class="solid"></line>
+    <rect x="224" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="108" x2="228" y2="116" class="solid"></line>
+    <rect x="280" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="108" x2="284" y2="116" class="solid"></line>
+    <rect x="288" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="108" x2="292" y2="116" class="solid"></line>
+    <rect x="296" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="108" x2="300" y2="116" class="solid"></line>
+    <rect x="304" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="108" x2="308" y2="116" class="solid"></line>
+    <rect x="360" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="108" x2="364" y2="116" class="solid"></line>
+    <rect x="368" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="108" x2="372" y2="116" class="solid"></line>
+    <rect x="376" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="108" x2="380" y2="116" class="solid"></line>
+    <rect x="384" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="108" x2="388" y2="116" class="solid"></line>
+    <line x1="428" y1="96" x2="428" y2="116" class="solid"></line>
+    <circle cx="452" cy="104" r="3" class="nofill"></circle>
+    <text x="474" y="108">..</text>
+    <text x="26" y="124">'</text>
+    <line x1="36" y1="124" x2="36" y2="176" class="solid"></line>
+    <rect x="120" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="124" x2="132" y2="132" class="solid"></line>
+    <rect x="136" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="124" x2="140" y2="132" class="solid"></line>
+    <rect x="144" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="124" x2="148" y2="132" class="solid"></line>
+    <rect x="200" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="208" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="124" x2="212" y2="132" class="solid"></line>
+    <rect x="216" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="124" x2="220" y2="132" class="solid"></line>
+    <rect x="224" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="124" x2="228" y2="132" class="solid"></line>
+    <rect x="280" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="124" x2="292" y2="132" class="solid"></line>
+    <rect x="296" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="124" x2="300" y2="132" class="solid"></line>
+    <rect x="304" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="124" x2="308" y2="132" class="solid"></line>
+    <rect x="360" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="368" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="124" x2="372" y2="132" class="solid"></line>
+    <rect x="376" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="124" x2="380" y2="132" class="solid"></line>
+    <rect x="384" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="124" x2="388" y2="132" class="solid"></line>
+    <text x="434" y="124">.</text>
+    <text x="458" y="124">.</text>
+    <polygon points="472,116 464,120 468,112" class="filled"></polygon>
+    <polygon points="480,116 472,120 476,112" class="filled"></polygon>
+    <polygon points="480,116 488,120 484,112" class="filled"></polygon>
+    <text x="18" y="140">@</text>
+    <rect x="128" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="140" x2="132" y2="148" class="solid"></line>
+    <rect x="136" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="140" x2="140" y2="148" class="solid"></line>
+    <rect x="144" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="140" x2="148" y2="148" class="solid"></line>
+    <rect x="152" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="156" y1="140" x2="156" y2="148" class="solid"></line>
+    <text x="162" y="140">.</text>
+    <rect x="208" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="140" x2="212" y2="148" class="solid"></line>
+    <rect x="216" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="140" x2="220" y2="148" class="solid"></line>
+    <rect x="224" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="140" x2="228" y2="148" class="solid"></line>
+    <rect x="232" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="236" y1="140" x2="236" y2="148" class="solid"></line>
+    <text x="242" y="140">.</text>
+    <rect x="288" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="140" x2="292" y2="148" class="solid"></line>
+    <rect x="296" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="140" x2="300" y2="148" class="solid"></line>
+    <rect x="304" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="140" x2="308" y2="148" class="solid"></line>
+    <rect x="312" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="316" y1="140" x2="316" y2="148" class="solid"></line>
+    <text x="322" y="140">.</text>
+    <rect x="368" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="140" x2="372" y2="148" class="solid"></line>
+    <rect x="376" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="140" x2="380" y2="148" class="solid"></line>
+    <rect x="384" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="140" x2="388" y2="148" class="solid"></line>
+    <rect x="392" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="396" y1="140" x2="396" y2="148" class="solid"></line>
+    <line x1="404" y1="128" x2="404" y2="144" class="solid"></line>
+    <line x1="444" y1="128" x2="444" y2="192" class="solid"></line>
+    <line x1="452" y1="128" x2="452" y2="164" class="solid"></line>
+    <rect x="128" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="156" x2="132" y2="164" class="solid"></line>
+    <rect x="136" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="156" x2="140" y2="164" class="solid"></line>
+    <rect x="144" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="148" y1="156" x2="148" y2="164" class="solid"></line>
+    <rect x="152" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="162" y="156">.</text>
+    <rect x="208" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="156" x2="212" y2="164" class="solid"></line>
+    <rect x="216" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="156" x2="220" y2="164" class="solid"></line>
+    <rect x="224" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="228" y1="156" x2="228" y2="164" class="solid"></line>
+    <rect x="232" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="242" y="156">.</text>
+    <rect x="288" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="156" x2="292" y2="164" class="solid"></line>
+    <rect x="296" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="156" x2="300" y2="164" class="solid"></line>
+    <rect x="304" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="308" y1="156" x2="308" y2="164" class="solid"></line>
+    <rect x="312" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="322" y="156">.</text>
+    <rect x="368" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="156" x2="372" y2="164" class="solid"></line>
+    <rect x="376" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="156" x2="380" y2="164" class="solid"></line>
+    <rect x="384" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="388" y1="156" x2="388" y2="164" class="solid"></line>
+    <rect x="392" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="402" y="156">.</text>
+    <rect x="120" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="172" x2="124" y2="180" class="solid"></line>
+    <rect x="128" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="172" x2="132" y2="180" class="solid"></line>
+    <rect x="136" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="172" x2="140" y2="180" class="solid"></line>
+    <rect x="144" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="200" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="172" x2="204" y2="180" class="solid"></line>
+    <rect x="208" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="172" x2="212" y2="180" class="solid"></line>
+    <rect x="216" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="172" x2="220" y2="180" class="solid"></line>
+    <rect x="224" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="172" x2="284" y2="180" class="solid"></line>
+    <rect x="288" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="172" x2="292" y2="180" class="solid"></line>
+    <rect x="296" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="172" x2="300" y2="180" class="solid"></line>
+    <rect x="304" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="360" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="172" x2="364" y2="180" class="solid"></line>
+    <rect x="368" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="172" x2="372" y2="180" class="solid"></line>
+    <rect x="376" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="172" x2="380" y2="180" class="solid"></line>
+    <rect x="384" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="458" y="172">.</text>
+    <text x="2" y="188">|</text>
+    <line x1="44" y1="176" x2="44" y2="192" class="solid"></line>
+    <rect x="112" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="116" y1="188" x2="116" y2="196" class="solid"></line>
+    <rect x="120" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="124" y1="188" x2="124" y2="196" class="solid"></line>
+    <rect x="128" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="188" x2="132" y2="196" class="solid"></line>
+    <rect x="136" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="140" y1="188" x2="140" y2="192" class="solid"></line>
+    <rect x="192" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="196" y1="188" x2="196" y2="196" class="solid"></line>
+    <rect x="200" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="204" y1="188" x2="204" y2="196" class="solid"></line>
+    <rect x="208" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="188" x2="212" y2="196" class="solid"></line>
+    <rect x="216" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="188" x2="220" y2="192" class="solid"></line>
+    <rect x="272" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="276" y1="188" x2="276" y2="196" class="solid"></line>
+    <rect x="280" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="284" y1="188" x2="284" y2="196" class="solid"></line>
+    <rect x="288" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="292" y1="188" x2="292" y2="196" class="solid"></line>
+    <rect x="296" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="300" y1="188" x2="300" y2="192" class="solid"></line>
+    <rect x="352" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="356" y1="188" x2="356" y2="196" class="solid"></line>
+    <rect x="360" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="364" y1="188" x2="364" y2="196" class="solid"></line>
+    <rect x="368" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="372" y1="188" x2="372" y2="196" class="solid"></line>
+    <rect x="376" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="188" x2="380" y2="192" class="solid"></line>
+    <line x1="468" y1="176" x2="468" y2="192" class="solid"></line>
+    <line x1="4" y1="192" x2="4" y2="224" class="solid"></line>
+    <line x1="52" y1="192" x2="52" y2="208" class="solid"></line>
+    <text x="74" y="204">.</text>
+    <line x1="104" y1="192" x2="96" y2="208" class="solid"></line>
+    <rect x="104" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="112" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="116" y1="204" x2="116" y2="212" class="solid"></line>
+    <rect x="120" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="132" y1="204" x2="132" y2="212" class="solid"></line>
+    <rect x="184" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="192" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="200" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="208" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="212" y1="204" x2="212" y2="212" class="solid"></line>
+    <rect x="264" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="272" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="344" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="352" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="360" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="368" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="378" y="204">|</text>
+    <line x1="436" y1="192" x2="436" y2="208" class="solid"></line>
+    <line x1="476" y1="192" x2="476" y2="208" class="solid"></line>
+    <line x1="60" y1="208" x2="60" y2="224" class="solid"></line>
+    <rect x="112" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="162" y="220">*</text>
+    <text x="178" y="220">*</text>
+    <rect x="208" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="224" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="258" y="220">*</text>
+    <text x="274" y="220">*</text>
+    <rect x="304" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="320" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="354" y="220">*</text>
+    <text x="370" y="220">*</text>
+    <line x1="428" y1="208" x2="428" y2="224" class="solid"></line>
+    <line x1="484" y1="208" x2="484" y2="224" class="solid"></line>
+    <line x1="12" y1="224" x2="12" y2="240" class="solid"></line>
+    <text x="82" y="236">...</text>
+    <rect x="104" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="120" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="136" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="144" y1="232" x2="152" y2="232" class="solid"></line>
+    <circle cx="156" cy="232" r="3" class="filled"></circle>
+    <text x="170" y="236">*</text>
+    <circle cx="188" cy="232" r="3" class="filled"></circle>
+    <line x1="192" y1="232" x2="200" y2="232" class="solid"></line>
+    <rect x="200" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="216" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="232" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="240" y1="232" x2="248" y2="232" class="solid"></line>
+    <circle cx="252" cy="232" r="3" class="filled"></circle>
+    <text x="266" y="236">*</text>
+    <circle cx="284" cy="232" r="3" class="filled"></circle>
+    <line x1="288" y1="232" x2="296" y2="232" class="solid"></line>
+    <rect x="296" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="328" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="336" y1="232" x2="344" y2="232" class="solid"></line>
+    <circle cx="348" cy="232" r="3" class="filled"></circle>
+    <text x="362" y="236">*</text>
+    <circle cx="380" cy="232" r="3" class="filled"></circle>
+    <line x1="384" y1="232" x2="392" y2="232" class="solid"></line>
+    <text x="394" y="236">...'</text>
+    <line x1="20" y1="240" x2="20" y2="256" class="solid"></line>
+    <text x="114" y="252">#</text>
+    <text x="130" y="252">#</text>
+    <text x="162" y="252">*</text>
+    <text x="178" y="252">*</text>
+    <text x="210" y="252">#</text>
+    <text x="226" y="252">#</text>
+    <text x="258" y="252">*</text>
+    <text x="274" y="252">*</text>
+    <text x="306" y="252">#</text>
+    <text x="322" y="252">#</text>
+    <text x="354" y="252">*</text>
+    <text x="370" y="252">*</text>
+    <text x="26" y="268">'.</text>
+    <text x="50" y="284">'.</text>
+    <text x="466" y="284">.</text>
+    <line x1="48" y1="288" x2="40" y2="304" class="solid"></line>
+    <g>
+        <line x1="260" y1="0" x2="260" y2="48" class="solid"></line>
+        <line x1="260" y1="8" x2="296" y2="8" class="solid"></line>
+        <line x1="296" y1="8" x2="304" y2="16" class="solid"></line>
+        <line x1="304" y1="16" x2="328" y2="16" class="solid"></line>
+        <line x1="260" y1="24" x2="296" y2="24" class="solid"></line>
+        <line x1="296" y1="24" x2="304" y2="32" class="solid"></line>
+        <line x1="304" y1="32" x2="328" y2="32" class="solid"></line>
+        <line x1="116" y1="44" x2="116" y2="116" class="solid"></line>
+        <line x1="116" y1="48" x2="388" y2="48" class="solid"></line>
+        <line x1="388" y1="44" x2="388" y2="68" class="solid"></line>
+        <line x1="156" y1="48" x2="156" y2="132" class="solid"></line>
+        <line x1="196" y1="48" x2="196" y2="116" class="solid"></line>
+        <line x1="236" y1="48" x2="236" y2="132" class="solid"></line>
+        <line x1="276" y1="48" x2="276" y2="116" class="solid"></line>
+        <line x1="316" y1="48" x2="316" y2="132" class="solid"></line>
+        <line x1="348" y1="48" x2="348" y2="64" class="solid"></line>
+        <path d="M 116,116 A 4,4 0,0,0 120,120" class="nofill"></path>
+        <path d="M 196,116 A 4,4 0,0,0 200,120" class="nofill"></path>
+        <path d="M 276,116 A 4,4 0,0,0 280,120" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="356" y1="60" x2="356" y2="116" class="solid"></line>
+        <path d="M 356,116 A 4,4 0,0,0 360,120" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="452" y1="80" x2="452" y2="100" class="solid"></line>
+        <line x1="452" y1="96" x2="496" y2="96" class="solid"></line>
+        <line x1="492" y1="96" x2="492" y2="116" class="solid"></line>
+        <polygon points="472,116 480,116 476,128" class="filled"></polygon>
+        <line x1="476" y1="112" x2="476" y2="116" class="solid"></line>
+        <line x1="484" y1="112" x2="484" y2="116" class="solid"></line>
+        <polygon points="480,116 488,116 484,128" class="filled"></polygon>
+    </g>
+    <g>
+        <path d="M 8,112 A 16,16 0,0,0 8,128" class="nofill"></path>
+        <line x1="8" y1="128" x2="10" y2="132" class="solid"></line>
+        <path d="M 10,132 A 8,8 0,0,0 16,136" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="124" y1="124" x2="124" y2="148" class="solid"></line>
+        <path d="M 124,148 A 4,4 0,0,0 128,152" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="204" y1="124" x2="204" y2="148" class="solid"></line>
+        <path d="M 204,148 A 4,4 0,0,0 208,152" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="284" y1="124" x2="284" y2="148" class="solid"></line>
+        <path d="M 284,148 A 4,4 0,0,0 288,152" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="364" y1="124" x2="364" y2="148" class="solid"></line>
+        <path d="M 364,148 A 4,4 0,0,0 368,152" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="20" y1="144" x2="20" y2="152" class="solid"></line>
+        <line x1="20" y1="152" x2="8" y2="176" class="solid"></line>
+    </g>
+    <g>
+        <line x1="120" y1="160" x2="110" y2="180" class="solid"></line>
+        <path d="M 110,180 A 3,3 0,0,0 112,184" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="156" y1="160" x2="156" y2="164" class="solid"></line>
+        <path d="M 156,164 A 16,16 0,0,1 154,172" class="nofill"></path>
+        <path d="M 152,168 A 3,3 0,0,1 154,172" class="nofill"></path>
+        <line x1="154" y1="172" x2="144" y2="192" class="solid"></line>
+    </g>
+    <g>
+        <line x1="200" y1="160" x2="190" y2="180" class="solid"></line>
+        <path d="M 190,180 A 3,3 0,0,0 192,184" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="236" y1="160" x2="236" y2="164" class="solid"></line>
+        <path d="M 236,164 A 16,16 0,0,1 234,172" class="nofill"></path>
+        <path d="M 232,168 A 3,3 0,0,1 234,172" class="nofill"></path>
+        <line x1="234" y1="172" x2="224" y2="192" class="solid"></line>
+    </g>
+    <g>
+        <line x1="280" y1="160" x2="270" y2="180" class="solid"></line>
+        <path d="M 270,180 A 3,3 0,0,0 272,184" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="316" y1="160" x2="316" y2="164" class="solid"></line>
+        <path d="M 316,164 A 16,16 0,0,1 314,172" class="nofill"></path>
+        <path d="M 312,168 A 3,3 0,0,1 314,172" class="nofill"></path>
+        <line x1="314" y1="172" x2="304" y2="192" class="solid"></line>
+    </g>
+    <g>
+        <line x1="360" y1="160" x2="350" y2="180" class="solid"></line>
+        <path d="M 350,180 A 3,3 0,0,0 352,184" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="396" y1="160" x2="396" y2="164" class="solid"></line>
+        <path d="M 396,164 A 16,16 0,0,1 394,172" class="nofill"></path>
+        <path d="M 392,168 A 3,3 0,0,1 394,172" class="nofill"></path>
+        <line x1="394" y1="172" x2="384" y2="192" class="solid"></line>
+    </g>
+    <g>
+        <line x1="124" y1="204" x2="124" y2="212" class="solid"></line>
+        <path d="M 124,212 A 4,4 0,0,1 120,216" class="nofill"></path>
+        <path d="M 124,212 A 4,4 0,0,0 128,216" class="nofill"></path>
+        <line x1="120" y1="216" x2="128" y2="216" class="solid"></line>
+    </g>
+    <g>
+        <line x1="140" y1="208" x2="176" y2="208" class="solid"></line>
+        <line x1="184" y1="192" x2="174" y2="212" class="solid"></line>
+        <line x1="168" y1="208" x2="176" y2="216" class="solid"></line>
+        <path d="M 174,212 A 8,8 0,0,1 168,216" class="nofill"></path>
+        <path d="M 174,212 A 3,3 0,0,0 176,216" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="220" y1="208" x2="256" y2="208" class="solid"></line>
+        <line x1="264" y1="192" x2="256" y2="208" class="solid"></line>
+        <line x1="220" y1="208" x2="220" y2="212" class="solid"></line>
+        <line x1="224" y1="208" x2="216" y2="216" class="solid"></line>
+        <path d="M 220,212 A 4,4 0,0,1 216,216" class="nofill"></path>
+        <path d="M 220,212 A 4,4 0,0,0 224,216" class="nofill"></path>
+        <path d="M 212,208 A 8,8 0,0,0 220,216" class="nofill"></path>
+        <line x1="220" y1="216" x2="224" y2="216" class="solid"></line>
+    </g>
+    <g>
+        <line x1="268" y1="204" x2="268" y2="212" class="solid"></line>
+        <path d="M 268,212 A 4,4 0,0,1 264,216" class="nofill"></path>
+        <path d="M 268,212 A 4,4 0,0,0 272,216" class="nofill"></path>
+        <line x1="276" y1="204" x2="276" y2="208" class="solid"></line>
+        <path d="M 276,208 A 8,8 0,0,1 268,216" class="nofill"></path>
+        <line x1="264" y1="216" x2="268" y2="216" class="solid"></line>
+    </g>
+    <g>
+        <line x1="300" y1="208" x2="336" y2="208" class="solid"></line>
+        <line x1="344" y1="192" x2="336" y2="208" class="solid"></line>
+        <line x1="312" y1="208" x2="320" y2="216" class="solid"></line>
+        <line x1="320" y1="208" x2="312" y2="216" class="solid"></line>
+    </g>
+    <g>
+        <line x1="356" y1="204" x2="356" y2="208" class="solid"></line>
+        <path d="M 356,208 A 8,8 0,0,0 364,216" class="nofill"></path>
+        <line x1="372" y1="204" x2="372" y2="208" class="solid"></line>
+        <path d="M 372,208 A 8,8 0,0,1 364,216" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="364" y1="204" x2="364" y2="212" class="solid"></line>
+        <path d="M 364,212 A 4,4 0,0,1 360,216" class="nofill"></path>
+        <path d="M 364,212 A 4,4 0,0,0 368,216" class="nofill"></path>
+        <line x1="360" y1="216" x2="368" y2="216" class="solid"></line>
+    </g>
+    <g>
+        <line x1="72" y1="208" x2="32" y2="288" class="solid"></line>
+        <line x1="24" y1="288" x2="32" y2="288" class="solid"></line>
+        <line x1="24" y1="288" x2="16" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <line x1="80" y1="208" x2="40" y2="288" class="solid"></line>
+        <line x1="68" y1="232" x2="80" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 112,216 A 4,4 0,0,0 108,220" class="nofill"></path>
+        <line x1="108" y1="220" x2="108" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <line x1="116" y1="220" x2="116" y2="228" class="solid"></line>
+        <path d="M 116,228 A 4,4 0,0,1 112,232" class="nofill"></path>
+        <path d="M 116,228 A 4,4 0,0,0 120,232" class="nofill"></path>
+        <path d="M 108,224 A 8,8 0,0,0 116,232" class="nofill"></path>
+        <line x1="116" y1="232" x2="120" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 116,208 A 8,8 0,0,0 124,216" class="nofill"></path>
+        <path d="M 132,208 A 8,8 0,0,1 124,216" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="132" y1="220" x2="132" y2="228" class="solid"></line>
+        <path d="M 132,228 A 4,4 0,0,1 128,232" class="nofill"></path>
+        <path d="M 132,228 A 4,4 0,0,0 136,232" class="nofill"></path>
+        <path d="M 140,224 A 8,8 0,0,1 132,232" class="nofill"></path>
+        <line x1="128" y1="232" x2="132" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 136,216 A 4,4 0,0,1 140,220" class="nofill"></path>
+        <line x1="140" y1="220" x2="140" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 160,216 A 4,4 0,0,0 156,220" class="nofill"></path>
+        <line x1="156" y1="220" x2="156" y2="224" class="solid"></line>
+        <path d="M 156,224 A 8,8 0,0,0 164,232" class="nofill"></path>
+        <line x1="164" y1="224" x2="164" y2="228" class="solid"></line>
+        <path d="M 164,228 A 4,4 0,0,1 160,232" class="nofill"></path>
+        <path d="M 164,228 A 4,4 0,0,0 168,232" class="nofill"></path>
+        <line x1="164" y1="232" x2="168" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 184,216 A 4,4 0,0,1 188,220" class="nofill"></path>
+        <line x1="188" y1="220" x2="188" y2="224" class="solid"></line>
+        <path d="M 188,224 A 8,8 0,0,1 180,232" class="nofill"></path>
+        <line x1="180" y1="224" x2="180" y2="228" class="solid"></line>
+        <path d="M 180,228 A 4,4 0,0,1 176,232" class="nofill"></path>
+        <path d="M 180,228 A 4,4 0,0,0 184,232" class="nofill"></path>
+        <line x1="176" y1="232" x2="180" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 208,216 A 4,4 0,0,0 204,220" class="nofill"></path>
+        <line x1="204" y1="220" x2="204" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <line x1="212" y1="220" x2="212" y2="228" class="solid"></line>
+        <path d="M 212,228 A 4,4 0,0,1 208,232" class="nofill"></path>
+        <path d="M 212,228 A 4,4 0,0,0 216,232" class="nofill"></path>
+        <path d="M 204,224 A 8,8 0,0,0 212,232" class="nofill"></path>
+        <line x1="212" y1="232" x2="216" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <line x1="228" y1="220" x2="228" y2="228" class="solid"></line>
+        <path d="M 228,228 A 4,4 0,0,1 224,232" class="nofill"></path>
+        <path d="M 228,228 A 4,4 0,0,0 232,232" class="nofill"></path>
+        <path d="M 236,224 A 8,8 0,0,1 228,232" class="nofill"></path>
+        <line x1="224" y1="232" x2="228" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 232,216 A 4,4 0,0,1 236,220" class="nofill"></path>
+        <line x1="236" y1="220" x2="236" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 256,216 A 4,4 0,0,0 252,220" class="nofill"></path>
+        <line x1="252" y1="220" x2="252" y2="224" class="solid"></line>
+        <path d="M 252,224 A 8,8 0,0,0 260,232" class="nofill"></path>
+        <line x1="260" y1="224" x2="260" y2="228" class="solid"></line>
+        <path d="M 260,228 A 4,4 0,0,1 256,232" class="nofill"></path>
+        <path d="M 260,228 A 4,4 0,0,0 264,232" class="nofill"></path>
+        <line x1="260" y1="232" x2="264" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 280,216 A 4,4 0,0,1 284,220" class="nofill"></path>
+        <line x1="284" y1="220" x2="284" y2="224" class="solid"></line>
+        <path d="M 284,224 A 8,8 0,0,1 276,232" class="nofill"></path>
+        <line x1="276" y1="224" x2="276" y2="228" class="solid"></line>
+        <path d="M 276,228 A 4,4 0,0,1 272,232" class="nofill"></path>
+        <path d="M 276,228 A 4,4 0,0,0 280,232" class="nofill"></path>
+        <line x1="272" y1="232" x2="276" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 304,216 A 4,4 0,0,0 300,220" class="nofill"></path>
+        <line x1="300" y1="220" x2="300" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <line x1="308" y1="220" x2="308" y2="228" class="solid"></line>
+        <path d="M 308,228 A 4,4 0,0,1 304,232" class="nofill"></path>
+        <path d="M 308,228 A 4,4 0,0,0 312,232" class="nofill"></path>
+        <path d="M 300,224 A 8,8 0,0,0 308,232" class="nofill"></path>
+        <line x1="308" y1="232" x2="312" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <line x1="324" y1="220" x2="324" y2="228" class="solid"></line>
+        <path d="M 324,228 A 4,4 0,0,1 320,232" class="nofill"></path>
+        <path d="M 324,228 A 4,4 0,0,0 328,232" class="nofill"></path>
+        <path d="M 332,224 A 8,8 0,0,1 324,232" class="nofill"></path>
+        <line x1="320" y1="232" x2="324" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 328,216 A 4,4 0,0,1 332,220" class="nofill"></path>
+        <line x1="332" y1="220" x2="332" y2="228" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 352,216 A 4,4 0,0,0 348,220" class="nofill"></path>
+        <line x1="348" y1="220" x2="348" y2="224" class="solid"></line>
+        <path d="M 348,224 A 8,8 0,0,0 356,232" class="nofill"></path>
+        <line x1="356" y1="224" x2="356" y2="228" class="solid"></line>
+        <path d="M 356,228 A 4,4 0,0,1 352,232" class="nofill"></path>
+        <path d="M 356,228 A 4,4 0,0,0 360,232" class="nofill"></path>
+        <line x1="356" y1="232" x2="360" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 376,216 A 4,4 0,0,1 380,220" class="nofill"></path>
+        <line x1="380" y1="220" x2="380" y2="224" class="solid"></line>
+        <path d="M 380,224 A 8,8 0,0,1 372,232" class="nofill"></path>
+        <line x1="372" y1="224" x2="372" y2="228" class="solid"></line>
+        <path d="M 372,228 A 4,4 0,0,1 368,232" class="nofill"></path>
+        <path d="M 372,228 A 4,4 0,0,0 376,232" class="nofill"></path>
+        <line x1="368" y1="232" x2="372" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <line x1="108" y1="236" x2="108" y2="244" class="solid"></line>
+        <path d="M 108,244 A 4,4 0,0,0 112,248" class="nofill"></path>
+        <path d="M 100,240 A 8,8 0,0,0 108,248" class="nofill"></path>
+        <line x1="108" y1="248" x2="112" y2="248" class="solid"></line>
+    </g>
+    <g>
+        <line x1="124" y1="236" x2="124" y2="244" class="solid"></line>
+        <path d="M 124,244 A 4,4 0,0,1 120,248" class="nofill"></path>
+        <path d="M 124,244 A 4,4 0,0,0 128,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="140" y1="236" x2="140" y2="244" class="solid"></line>
+        <path d="M 140,244 A 4,4 0,0,1 136,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="204" y1="236" x2="204" y2="244" class="solid"></line>
+        <path d="M 204,244 A 4,4 0,0,0 208,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="220" y1="236" x2="220" y2="244" class="solid"></line>
+        <path d="M 220,244 A 4,4 0,0,1 216,248" class="nofill"></path>
+        <path d="M 220,244 A 4,4 0,0,0 224,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="236" y1="236" x2="236" y2="244" class="solid"></line>
+        <path d="M 236,244 A 4,4 0,0,1 232,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="300" y1="236" x2="300" y2="244" class="solid"></line>
+        <path d="M 300,244 A 4,4 0,0,0 304,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="316" y1="236" x2="316" y2="244" class="solid"></line>
+        <path d="M 316,244 A 4,4 0,0,1 312,248" class="nofill"></path>
+        <path d="M 316,244 A 4,4 0,0,0 320,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="332" y1="236" x2="332" y2="244" class="solid"></line>
+        <path d="M 332,244 A 4,4 0,0,1 328,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="492" y1="224" x2="492" y2="260" class="solid"></line>
+        <line x1="492" y1="256" x2="468" y2="280" class="broken"></line>
+    </g>
+    <g>
+        <line x1="156" y1="240" x2="156" y2="244" class="solid"></line>
+        <path d="M 156,244 A 4,4 0,0,0 160,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="172" y1="240" x2="172" y2="244" class="solid"></line>
+        <path d="M 172,244 A 4,4 0,0,1 168,248" class="nofill"></path>
+        <path d="M 172,244 A 4,4 0,0,0 176,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="188" y1="240" x2="188" y2="244" class="solid"></line>
+        <path d="M 188,244 A 4,4 0,0,1 184,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="252" y1="240" x2="252" y2="244" class="solid"></line>
+        <path d="M 252,244 A 4,4 0,0,0 256,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="268" y1="240" x2="268" y2="244" class="solid"></line>
+        <path d="M 268,244 A 4,4 0,0,1 264,248" class="nofill"></path>
+        <path d="M 268,244 A 4,4 0,0,0 272,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="284" y1="240" x2="284" y2="244" class="solid"></line>
+        <path d="M 284,244 A 4,4 0,0,1 280,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="348" y1="240" x2="348" y2="244" class="solid"></line>
+        <path d="M 348,244 A 4,4 0,0,0 352,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="364" y1="240" x2="364" y2="244" class="solid"></line>
+        <path d="M 364,244 A 4,4 0,0,1 360,248" class="nofill"></path>
+        <path d="M 364,244 A 4,4 0,0,0 368,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="380" y1="240" x2="380" y2="244" class="solid"></line>
+        <path d="M 380,244 A 4,4 0,0,1 376,248" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="64" y1="288" x2="72" y2="288" class="solid"></line>
+        <line x1="72" y1="288" x2="80" y2="296" class="solid"></line>
+        <line x1="80" y1="296" x2="448" y2="296" class="solid"></line>
+        <line x1="456" y1="288" x2="464" y2="288" class="solid"></line>
+        <line x1="456" y1="288" x2="448" y2="296" class="solid"></line>
+    </g>
+</svg>

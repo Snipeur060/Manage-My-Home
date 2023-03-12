@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js " lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Manage My Home</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/al.style.min.css') }}">
+    </head>
+    <body>
+        <div id="layout-f" class="theme-cyan">
+            <div class="main auth-div p-2 py-3 p-xl-5">
+                <div class="body d-flex p-0 p-xl-5">
+                    <div class="container-fluid">
+                        <div class="row g-0">
+                            <div class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center rounded-lg auth-h100">
+                                <div style="max-width: 25rem;">
+                                    <div class="text-center mb-5">
+                                        <img style="width:20rem;" src="https://media.discordapp.net/attachments/853228421390663690/1033770245267128450/png-clipart-house-3d-computer-graphics-3d-modeling-three-dimensional-space-house-3d-model-celebrities-3d-computer-graphics.png?width=738&height=671">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center border-0 rounded-lg auth-h100">
+                                <div class="w-100 p-4 p-md-5 card border-0" style="max-width: 34rem;">
+                                    <form class="row g-1 p-0 p-md-4" method="POST">
+                                        <div class="col-12 text-center mb-5">
+                                            <h1>Se connecter</h1>
+                                            <span>Free access to our dashboard.</span>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-2">
+                                                <label class="form-label">Nom d'utilisateur</label>
+                                                <input type="text" class="form-control form-control-lg"  name="username" placeholder="Username">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-2">
+                                                <div class="form-label">
+                                                    <span class="d-flex justify-content-between align-items-center">
+                                                    Mot de passe
+                                                    </span>
+                                                </div>
+                                                <input type="password" class="form-control form-control-lg" name="password"  placeholder="***************">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                        </div>
+                                        <div class="col-12 text-center mt-4">
+                                            <input type="submit" class="btn btn-lg btn-block btn-dark lift text-uppercase" value="Se connecter">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </body>
+</html>
