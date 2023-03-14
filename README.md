@@ -2,10 +2,10 @@
 
 <p align="center"><img src="https://socialify.git.ci/Snipeur060/Manage-My-Home/image?font=Rokkitt&amp;language=1&amp;logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2FArduino_Logo_Registered.svg%2F1200px-Arduino_Logo_Registered.svg.png&amp;name=1&amp;pattern=Circuit%20Board&amp;theme=Auto" alt="project-image"></p>
 
-<p align="center">
+<p>
 Notre projet consiste en la création d'un système domotique contrôlé à distance à l'aide d'un boîtier Arduino et d'un programme Python. 
 
-  Nous sommes une équipe de trois (élèves de Terminale) dans la spécialité NSI, et avons travaillé ensemble pendant 12 semaines pour réaliser ce projet.
+Nous sommes une équipe de trois (élèves de Terminale) dans la spécialité NSI, et avons travaillé ensemble pendant 12 semaines pour réaliser ce projet.
 
 Le système que nous avons développé est capable de contrôler plusieurs capteurs et actionneurs dans une maison, et les informations sont transmises via une communication série entre l'Arduino et Python. 
 
