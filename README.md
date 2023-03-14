@@ -5,7 +5,7 @@
 <p align="center">
 Notre projet consiste en la création d'un système domotique contrôlé à distance à l'aide d'un boîtier Arduino et d'un programme Python. 
 
-Nous sommes une équipe de trois (élèves de Terminale) dans la spécialité NSI, et avons travaillé ensemble pendant 12 semaines pour réaliser ce projet.
+  Nous sommes une équipe de trois (élèves de Terminale) dans la spécialité NSI, et avons travaillé ensemble pendant 12 semaines pour réaliser ce projet.
 
 Le système que nous avons développé est capable de contrôler plusieurs capteurs et actionneurs dans une maison, et les informations sont transmises via une communication série entre l'Arduino et Python. 
 
