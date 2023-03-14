@@ -11,7 +11,7 @@ Le système que nous avons développé est capable de contrôler plusieurs capte
 
 Nous avons également créé un client indépendant en ligne de commande (CLI) pour prendre le contrôle du système domotique. 
 
-Ce projet nous a permis d'explorer les possibilités de communication entre l'Arduino et Python, ainsi que de développer nos compétences en programmation et en électronique</p>
+Ce projet nous a permis d'explorer les possibilités de communication entre l'Arduino et Python, ainsi que de développer nos compétences en programmation et en électronique (malgré l'utilisation de la carte groove)</p>
 
 <p align="center"><img src="https://img.shields.io/badge/Python-00BFFF?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/Arduino-9ACD32?style=for-the-badge&amp;logo=arduino&amp;logoColor=white" alt="shields"></p>
 
