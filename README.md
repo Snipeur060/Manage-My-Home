@@ -46,9 +46,7 @@ python flask-server.py
 
 <img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-ice-dashboard.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
 
-<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-rpyc.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
-
-<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-rpyc.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-rpyc-server.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
 
 <img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-task-manager.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
 
