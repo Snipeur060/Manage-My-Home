@@ -119,7 +119,7 @@ def quefaire():
 def affichage():
     print(" ***** MENU *****")
     print(
-        " 1/ Re-iniatiler la console",
+        " 1/ Réinitialiser  la console",
         "\n",
         "2/ Modifier le mot de passe",
         "\n",
