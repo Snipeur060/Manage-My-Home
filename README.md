@@ -34,7 +34,26 @@ python rpyc-server.py
 python flask-server.py
 ```
 
-  
+<h2>Project Screenshots:</h2>
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/login-dash.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-client.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-flask-server.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-dashboard.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-ice-dashboard.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-rpyc.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-rpyc.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-task-manager.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/task-log.png?raw=true" alt="project-screenshot" width="400" height="400/">
+
   
 <h2>💻 Built with</h2>
 
