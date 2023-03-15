@@ -38,7 +38,7 @@ python flask-server.py
 
 <img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/login-dash.png?raw=true" alt="project-screenshot" width="50%" height="50%" />
 
-<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-client.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
+<img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/client-project.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
 
 <img src="https://github.com/Snipeur060/Manage-My-Home/blob/main/docs/project-flask-server.png?raw=true" alt="project-screenshot" width="50%" height="50%"/>
 
