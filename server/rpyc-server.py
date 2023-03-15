@@ -190,7 +190,7 @@ def activate_job():
     print(
         Fore.LIGHTGREEN_EX,
         Style.BRIGHT,
-        "L'enssembles des actions ont était réalisé",
+        "L'ensemble des actions ont été réalisé",
         Style.RESET_ALL,
     )
 
