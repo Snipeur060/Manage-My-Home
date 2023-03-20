@@ -59,6 +59,7 @@ Technologies used in the project:
 
 *   Arduino
 *   Python
+*   Serial
 
 <h2>🛡️ License:</h2>
 
